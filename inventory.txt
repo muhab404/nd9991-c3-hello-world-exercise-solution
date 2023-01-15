@@ -1,4 +1,4 @@
 [ubuntu]
-ec2-3-91-214-97.compute-1.amazonaws.com
+3.91.214.97
 [all]
-ec2-3-91-214-97.compute-1.amazonaws.com
+3.91.214.97
