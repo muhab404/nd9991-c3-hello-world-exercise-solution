@@ -99,7 +99,7 @@ jobs:
       - run:
           name: Run Playbook and Configure server
           command: |
-            ansible-playbook -i inventory.txt main4.yml 
+            ansible-playbook -i inventory.txt main4.yml  
 
   # Exercise: Smoke Testing
   smoke_test:
@@ -220,7 +220,7 @@ workflows:
       #- download_file:
       #    requires:
       #      - upload_file
-      # - create_infrastructure
+      # - create_infrastructure 
       - configure_infrastructure
       # - create_and_deploy_front_end
       # - promote_to_production:
